@@ -1,13 +1,9 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React from 'react'
 
-const App = () => {
+function App() {
   return (
-    <div id="main">
-    <p>I am learning React. My life is getting better</p>
-    </div>
+    <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
   )
 }
 
-
-export default App;
+export default App
